@@ -1,4 +1,5 @@
 sudo yum install python;
+cd ..
 git clone https://github.com/letsencrypt/letsencrypt;
 cd letsencrypt/;
 ./certbot-auto certonly --webroot -w /home/ec2-user/barrios.io/public -d barrios.io -d www.barrios.io
