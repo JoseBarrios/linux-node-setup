@@ -18,6 +18,9 @@ git clone https://github.com/JoseBarrios/linux-node-setup.git
 cd linux-node-setup/
 
 
-#Run Red Hat setup script
-sudo ./redhat-setup.sh
+#Change permissions so it can run
+chmod 700 redhat-setup.sh
+
+#Run Redhat setup script
+./redhat-setup.sh
 ```
