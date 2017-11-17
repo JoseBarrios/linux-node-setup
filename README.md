@@ -19,5 +19,5 @@ cd linux-node-setup/
 
 
 #Run Red Hat setup script
-./redhat-setup.sh
+sudo ./redhat-setup.sh
 ```
