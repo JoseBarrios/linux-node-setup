@@ -1,4 +1,4 @@
-# linux-node-setup
+# Linux Setup
 Bash commands to setup a Node.JS environment in Linux RedHat machines
 
 #Red Hat
@@ -12,10 +12,10 @@ sudo yum upgrade;
 sudo yum install git;
 
 #Install our setup files (via GitHub)
-git clone https://github.com/JoseBarrios/linux-node-setup.git
+git clone git@github.com:JoseBarrios/server-setups.git
 
 #Open setup directory
-cd linux-node-setup/
+cd server-setups
 
 
 #Change permissions so it can run
