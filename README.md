@@ -12,7 +12,7 @@ sudo yum upgrade;
 sudo yum install git;
 
 #Install our setup files (via GitHub)
-git clone git@github.com:JoseBarrios/server-setups.git
+git clone https://github.com/JoseBarrios/server-setups.git
 
 #Open setup directory
 cd server-setups
