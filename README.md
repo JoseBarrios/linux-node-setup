@@ -20,6 +20,7 @@ cd server-setups
 
 #Change permissions so it can run
 chmod 700 redhat-setup.sh
+chmod 700 redhat-ssl-setup.sh
 
 #Run Redhat setup script
 ./redhat-setup.sh
