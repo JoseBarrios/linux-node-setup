@@ -20,12 +20,11 @@ cd server-setups
 
 #Change permissions so it can run
 chmod 700 redhat-setup.sh
-chmod 700 redhat-ssl-setup.sh
 
 #Run Redhat setup script
 ./redhat-setup.sh
 ```
 
 ```bash
-sudo yum upgrade; sudo yum install git; git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh; chmod 700 redhat-ssl-setup.sh;./redhat-setup.sh
+sudo yum upgrade; sudo yum install git; git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh;./redhat-setup.sh
 ```
