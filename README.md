@@ -28,3 +28,12 @@ chmod 700 redhat-setup.sh
 ```bash
 yes | sudo yum upgrade; yes | sudo yum install git; yes | git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh; ./redhat-setup.sh
 ```
+
+# Bash profile
+Add this to your ~./bash_profile
+```
+test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+```
