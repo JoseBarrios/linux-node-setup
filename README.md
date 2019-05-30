@@ -26,5 +26,5 @@ chmod 700 redhat-setup.sh
 ```
 
 ```bash
-sudo yum upgrade; sudo yum install git; git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh;./redhat-setup.sh
+yes | sudo yum upgrade; sudo yum install git; git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh;./redhat-setup.sh
 ```
