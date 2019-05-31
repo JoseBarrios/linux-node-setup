@@ -8,7 +8,6 @@ First, you need to install Git on the machine.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 yes | sudo apt-get install build-essential curl file git
-yes | brew install node
 
 #Install our setup files (via GitHub)
 git clone https://github.com/JoseBarrios/server-setups.git
