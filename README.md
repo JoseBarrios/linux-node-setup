@@ -1,15 +1,14 @@
 # Linux Setup
 Bash commands to setup a Node.JS environment in Linux RedHat machines
 
-#Red Hat
+#Ubuntu 
 
 First, you need to install Git on the machine.
 ```bash
-#Upgrade the package manager
-sudo yum upgrade;
-
-#Install Git
-sudo yum install git;
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+yes | sudo apt-get install build-essential curl file git
+yes | brew install node
 
 #Install our setup files (via GitHub)
 git clone https://github.com/JoseBarrios/server-setups.git
@@ -25,12 +24,8 @@ chmod 700 redhat-setup.sh
 ./redhat-setup.sh
 ```
 
-```bash
-yes | sudo yum upgrade; yes | sudo yum install git; yes | git clone https://github.com/JoseBarrios/server-setups.git; cd server-setups; chmod 700 redhat-setup.sh; ./redhat-setup.sh
-```
-
 # Bash profile
-Add this to your ~./bash_profile
+Add this to your ~./profile
 ```
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
 test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
