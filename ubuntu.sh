@@ -1,3 +1,4 @@
+sudo apt-get update
 yes | brew install node@10 #LTS EOL: 2021-04-01
 echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/node@10/bin:$PATH"' >> ~/.bash_profile
 export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/node@10/lib"
